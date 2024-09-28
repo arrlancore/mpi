@@ -20,8 +20,6 @@ interface PendahuluanPageProps {
 }
 
 export const loader = async ({ params }: { params: { materiId: string } }) => {
-  console.log("Loading level content", params.materiId);
-
   let material: Material | null = null;
   let back: Material | null = null;
   let next: Material | null = null;
