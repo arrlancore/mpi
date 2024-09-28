@@ -302,7 +302,6 @@ Contoh :
             "Penjelasan tentang bagaimana panas (kenaikan suhu) dapat mengubah wujud benda.",
           content:
             "Jika benda padat dipanaskan, bisa mencair. Jika benda cair dipanaskan lebih lanjut, bisa menguap. Misalnya, lilin padat yang dipanaskan akan meleleh, dan air mendidih akan menguap menjadi uap air.",
-          quiz: null,
         },
         {
           slug: "materi-3b",
@@ -312,7 +311,6 @@ Contoh :
             "Penjelasan tentang bagaimana dingin (penurunan suhu) dapat mengubah wujud benda.",
           content:
             "Jika benda cair didinginkan, bisa membeku menjadi padat. Gas yang didinginkan bisa mengembun menjadi cair. Contohnya, air di dalam freezer berubah menjadi es, atau uap air di udara berubah menjadi embun saat pagi hari.",
-          quiz: null,
         },
       ],
       exam: {
