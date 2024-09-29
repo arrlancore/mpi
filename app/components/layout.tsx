@@ -6,13 +6,15 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
     <div className="flex flex-col min-h-screen">
       {/* Header */}
       <header className="bg-gradient-to-r flex justify-between items-center bg-white text-slate-700 py-4 px-6">
-        <Link to="/">
+        <Link to="/" className="z-50">
           <img src="/pembatik.png" width="120" height="auto" alt="Pembatik" />
         </Link>
 
-        <h1 className="text-lg font-bold bg-clip-text text-blue-700 animate-pulse shadow-lg rounded-full px-4 py-2 border-2 border-blue-600 hover:scale-105 transition-transform duration-300">
-          Kenny Rahayu S.Pd
-        </h1>
+        <Link to="/creator" className="z-50">
+          <h1 className="text-sm font-bold bg-clip-text text-blue-700 animate-pulse shadow-lg rounded-full px-4 py-2 border-2 border-blue-600 hover:scale-105 transition-transform duration-300">
+            Kenny Rahayu S.Pd
+          </h1>
+        </Link>
       </header>
 
       {/* Main Content Area */}

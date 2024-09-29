@@ -71,12 +71,18 @@ const MateriPage: React.FC<PendahuluanPageProps> = ({}) => {
               </h4>
               <ul className="list-disc list-inside text-indigo-100">
                 {content.materials.map((material, idx) => (
-                  <Link to={`/materi-detail/${material.slug}`}>
-                    <li key={idx} className="flex items-start gap-2 mb-1">
-                      <span className="text-indigo-100">
-                        {material.type === "video" ? "🎥" : "📚"}
-                      </span>
-                      <span>{material.title}</span>
+                  <Link to={`/materi-detail/${material.slug}`} key={idx}>
+                    <li className="flex items-center justify-between mb-1 hover:bg-purple-600 rounded p-1">
+                      <div className="flex items-start gap-2">
+                        <span className="text-indigo-100">
+                          {material.type === "video" ? "🎥" : "📚"}
+                        </span>
+                        <span>{material.title}</span>
+                      </div>
+                      <div className="flex items-center text-yellow-300">
+                        <span className="mr-1">Lihat</span>
+                        <ChevronRight size={16} />
+                      </div>
                     </li>
                   </Link>
                 ))}
