@@ -254,7 +254,7 @@ Contoh :
           title: "Video Pembelajaran",
           type: "video",
           description: "Video tentang perubahan wujud benda",
-          content: "TtxD0Us0Ni0",
+          content: "b2zRk9xGapo",
         },
         {
           slug: "video-2c",
